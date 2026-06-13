@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>레시피</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+  margin: 0;
+  background: #eefaff;
+  font-family: 'Jua', sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 26px 20px 60px;
+}
+
+.notice {
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 26px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.label {
+  text-align: center;
+  color: #52a6bd;
+  font-size: 22px;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  margin: 0 0 14px;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  font-size: 22px;
+  margin-bottom: 34px;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #d7edf3;
+  border-radius: 24px;
+  padding: 26px 24px;
+  margin-bottom: 24px;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+
+.section-name {
+  color: #3b9db5;
+  font-size: 23px;
+  margin: 20px 0 10px;
+}
+
+.ingredients {
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+.secret-btn {
+  display: inline-block;
+  margin-top: 14px;
+  background: #fff0e8;
+  color: #ff8845;
+  padding: 13px 20px;
+  border-radius: 12px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.step {
+  display: flex;
+  gap: 18px;
+  margin: 26px 0;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.num {
+  min-width: 44px;
+  height: 44px;
+  background: #65b9cf;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  font-size: 24px;
+}
+
+.highlight {
+  background: #dff4fa;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.summary {
+  background: #dff7ff;
+  border: 2px solid #b8e7f3;
+  border-radius: 24px;
+  text-align: center;
+  padding: 28px 20px;
+  color: #278aa3;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.cta {
+  background: #222;
+  color: white;
+  border-radius: 24px;
+  padding: 32px 22px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  background: #69c8dd;
+  color: white;
+  text-decoration: none;
+  padding: 16px 38px;
+  border-radius: 40px;
+  font-size: 25px;
+}
+
+.share-box {
+  background: white;
+  border: 2px solid #d7edf3;
+  border-radius: 24px;
+  text-align: center;
+  padding: 28px 20px;
+}
+
+.share-title {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.share-buttons a,
+.share-buttons button {
+  display: inline-block;
+  border: none;
+  margin: 8px;
+  padding: 13px 22px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: 'Jua', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.kakao {
+  background: #ffe500;
+  color: #222;
+}
+
+.copy {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  color: #999;
+  font-size: 17px;
+  margin-top: 34px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <p class="notice">쿠팡 파트너스 활동의 일환으로 일정 수수료를 제공받습니다</p>
+
+  <img class="hero-img" src="이미지주소넣기" alt="레시피 이미지">
+
+  <div class="label">RECIPE</div>
+  <h1>촉촉한 김밥</h1>
+  <p class="subtitle">시간 지나도 밥알이 살아있는 김밥 🍙</p>
+
+  <div class="card">
+    <div class="card-title">🛒 준비물</div>
+
+    <div class="section-name">재료</div>
+    <div class="ingredients">
+      김밥김 · 밥 · 단무지 · 햄 · 계란 · 당근 · 시금치 · 통깨
+    </div>
+
+    <div class="section-name">비밀재료</div>
+    <a class="secret-btn" href="쿠팡파트너스링크넣기" target="_blank">
+      ✨ 비밀재료 확인하기 →
+    </a>
+  </div>
+
+  <div class="card">
+    <div class="card-title">👩‍🍳 만드는 법</div>
+
+    <div class="step">
+      <div class="num">1</div>
+      <div>밥은 평소보다 <span class="highlight">살짝 꼬들하게</span> 지어주세요.</div>
+    </div>
+
+    <div class="step">
+      <div class="num">2</div>
+      <div>밥 완성 후 뚜껑을 살짝 열고 <span class="highlight">3~5분 김 날리기</span></div>
+    </div>
+
+    <div class="step">
+      <div class="num">3</div>
+      <div>밥 한 공기 기준 <span class="highlight">비밀재료 2~3스푼</span>을 넣어주세요.</div>
+    </div>
+
+    <div class="step">
+      <div class="num">4</div>
+      <div>주걱으로 누르지 말고 <span class="highlight">자르듯이 섞어주세요.</span></div>
+    </div>
+
+    <div class="step">
+      <div class="num">5</div>
+      <div>마지막에 참기름을 살짝 넣고 김밥을 말아주세요.</div>
+    </div>
+  </div>
+
+  <div class="summary">
+    밥알은 살아있고<br>
+    식어도 촉촉한 김밥 완성 :)
+  </div>
+
+  <div class="cta">
+    이 비밀재료 하나면<br>
+    김밥 밥맛이 달라져요 🤍<br>
+    <a href="쿠팡파트너스링크넣기" target="_blank">비밀재료 확인하기 →</a>
+  </div>
+
+  <div class="share-box">
+    <div class="share-title">🍙 이 레시피 공유하기</div>
+    <p>친구들에게도 알려주세요!</p>
+
+    <div class="share-buttons">
+      <a class="kakao" href="#">💬 카톡</a>
+      <button class="copy" onclick="copyLink()">🔗 링크복사</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    💌 인스타 DM 안내용 레시피 페이지
+  </div>
+
+</div>
+
+<script>
+function copyLink() {
+  navigator.clipboard.writeText(window.location.href);
+  alert("링크가 복사됐어요!");
+}
+</script>
+
+</body>
+</html>
